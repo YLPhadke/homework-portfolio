@@ -1,0 +1,42 @@
+h1 {
+  color: black;
+  background: lightblue;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 30px
+}
+
+p {
+  font-size: 20px;
+}
+
+ol {
+  font-size: 20px
+
+}
+
+div {
+  background-color: lightblue;
+  text-align: justify;
+  border: 1px solid black;
+  font-family: monospace;
+}
+
+body {
+  background-image: url("https://www.dentons.com/-/media/images/website/background-images/practices/intellectual-property-and-technology/internet-protection-tech.jpg");
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
