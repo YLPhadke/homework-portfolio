@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  <head>
+    <meta charset="utf-8">
+    <title>LocalStorage landing page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/index.js">
+  </head>
+  <body>
+      <div class="form-container">
+        <form id="settings-form">
+        <form>
+        First name:<br>
+        <input type="text" name="firstname" value="">
+        <br>
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        <br>
+        E-mail Address:<br>
+        <input type="text" name="email" title="example@example.com" style="color:#888;"
+        value="example@example.com" onfocus="inputFocus(this)" onblur="inputBlur(this)" />
+        <br>
+        <br>
+        Password:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        <br>
+        Date of Birth:<br>
+       <input type="text" name="firstname" title="dob" style="color:#888;"
+        value="MM/DD/YYYY" onfocus="inputFocus(this)" onblur="inputBlur(this)" />
+        <br>
+        <br>
+        Favorite Color:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        <br>
+        Highest Level of Education:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        <br>
+        Phone Number:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        <br>
+        Bio:<br>
+        <textarea rows="3" cols="40">
+        </textarea>
+        <br>
+        <br>
+        Gender:<br>
+        <form action="">
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <input type="radio" name="gender" value="n/a"> Prefer not to identify
+      </form>
+        <br>
+
+        Favorite Programming Language(s):<br>
+        <input type="checkbox" name="lang" value="js"> Javascript<br>
+        <input type="checkbox" name="lang" value="sql"> SQL<br>
+        <input type="checkbox" name="lang" value="c++"> C++<br>
+        <input type="checkbox" name="lang" value="c#"> C#<br>
+        <input type="checkbox" name="lang" value="perl"> Perl<br>
+        <input type="checkbox" name="lang" value="php"> PHP<br>
+        <input type="checkbox" name="lang" value="python"> Python<br>
+
+        <br>
+
+        Years of Programming:<br>
+        <select name="years">
+        <option value="1-2">1-2</option>
+        <option value="2-6">2-6</option>
+        <option value="3-6">6+</option>
+        </select>
+        <br><br>
+
+
+
+        <input type="submit" value="SUBMIT">
+
+        </form>
+      </form>
+      </div>
+
+
+  </body>
+</html>
