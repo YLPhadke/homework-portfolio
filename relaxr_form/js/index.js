@@ -59,7 +59,7 @@ $(document).ready(function() {
 });
 
 function validateForm() {
-    var x = document.forms["form-container"]["firstname"].value;
+    var x = document.forms["myForm"]["fname"].value;
     if (x == "") {
         alert("Name must be filled out");
         return false;
